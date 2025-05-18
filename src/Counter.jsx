@@ -16,6 +16,7 @@ function Counter() {
       <input type="number" onChange={(e) => setNum(parseInt(e.target.value))} />
       <button onClick={handleClick}> ince by {num} </button>
       <button onClick={handleClick2}> dece by {num} </button>
+      <p>{value}</p>
     </>
   );
 }
