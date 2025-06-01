@@ -25,14 +25,13 @@ function App() {
   // };
   return (
     <>
-      {/* <p>Count : {value}</p>
+      <p>Count : {value}</p>
       <button onClick={handleClick1}>Ince By 1</button>
       <button onClick={handleClick2}>Ince By 5</button>
       <button onClick={handleClick3}>dece By 1</button>
       <button onClick={handleClick4}>reset</button>
       <br />
-      <Counter /> */}
-      <UseCall />
+      <Counter />
     </>
   );
 }
